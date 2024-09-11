@@ -10,7 +10,6 @@ public class LimitOrderAgent implements PriceListener {
     String productId;
     BigDecimal price;
 
-
     ExecutionClient ec;
 
     public LimitOrderAgent(final ExecutionClient ec) {
