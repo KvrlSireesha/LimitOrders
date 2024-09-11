@@ -24,6 +24,7 @@ public class LimitOrderAgent implements PriceListener {
             }
         }
      }
+
     @Override
     public void priceTick(String productId, BigDecimal price)  {
             this.productId=productId;
