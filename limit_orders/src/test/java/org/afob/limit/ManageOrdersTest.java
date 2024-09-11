@@ -1,5 +1,6 @@
 package org.afob.limit;
 
+
 import org.afob.execution.ExecutionClient;
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,13 +10,7 @@ import java.math.BigDecimal;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
-public class LimitOrderAgentTest {
-
-    @Test
-    public void addTestsHere() {
-        Assert.fail("not implemented");
-    }
-
+public class ManageOrdersTest {
     @Test
     public void priceTickTest(){
         String productId="IBM";
@@ -35,4 +30,5 @@ public class LimitOrderAgentTest {
 
         assertEquals("failed to buy: environment error", exception.getMessage());
     }
+
 }
